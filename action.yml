@@ -161,7 +161,7 @@ runs:
             echo "ZEPHYR_BASE=$(pwd)/zephyr_project/zephyr" >> $GITHUB_ENV
         else
             echo "dir $(pwd)"
-            pip3 install -r zephyr/scripts/requirements.txt
+            pip3 install -r /home/andriy/zephyr/scripts/requirements.txt
             echo "ZEPHYR_BASE=$(pwd)/../zephyr" >> $GITHUB_ENV
             #echo "zephyr_base  $ZEPHYR_BASE"
         fi
